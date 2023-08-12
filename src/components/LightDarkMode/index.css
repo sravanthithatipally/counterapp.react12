@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 25px;
+}
+
+.container {
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.button {
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+}
